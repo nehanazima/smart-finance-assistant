@@ -1,4 +1,4 @@
-# 📊 Smart Finance Assistant – Student Project Template
+# 📊 Smart Finance Assistant 
 
 <!-- BADGES:START -->
 [![curtin](https://img.shields.io/badge/-curtin-f57c00?style=flat-square)](https://github.com/topics/curtin) [![ai-assistant](https://img.shields.io/badge/-ai--assistant-blue?style=flat-square)](https://github.com/topics/ai-assistant) [![chatbot](https://img.shields.io/badge/-chatbot-blue?style=flat-square)](https://github.com/topics/chatbot) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![finance](https://img.shields.io/badge/-finance-blue?style=flat-square)](https://github.com/topics/finance) [![financial-tools](https://img.shields.io/badge/-financial--tools-blue?style=flat-square)](https://github.com/topics/financial-tools) [![gradio](https://img.shields.io/badge/-gradio-blue?style=flat-square)](https://github.com/topics/gradio) [![jupyter-notebook](https://img.shields.io/badge/-jupyter--notebook-blue?style=flat-square)](https://github.com/topics/jupyter-notebook) [![python](https://img.shields.io/badge/-python-3776ab?style=flat-square)](https://github.com/topics/python) [![rag](https://img.shields.io/badge/-rag-blue?style=flat-square)](https://github.com/topics/rag)
@@ -9,49 +9,25 @@ Welcome to your project repository for the **ISYS2001 Final Programming Project*
 ---
 
 ## 📖 Project Overview
-In this project, you will design and implement a **Smart Finance Assistant** using:
-- Python (Google Colab)
-- [hands-on-ai](https://pypi.org/project/hands-on-ai/) (chat, RAG, agent tools)
-- [Gradio](https://www.gradio.app/) (to create a simple app interface)
-
-Your Assistant should include:
+This project aims to create a Smart Finance Assistant that assists users in managing their finances through data analysis and personalized recommendations. It processes transaction data to calculate spending, suggest savings, and analyze financial habits.
+ Assistant included:
 - **Chat**: a finance-oriented personality bot
 - **RAG**: retrieval from CSV or other documents
 - **Agent Tool**: one custom tool (e.g., budget calculator, currency converter)
 - **Gradio UI**: a simple interface tying everything together
 - **Tests**: a Testing Section in your notebook
 
----
+  ## Project Structure:
+  - AI-CONVERSATIONS
+  - /README.md - Project documentation
+  - /diary.md Developer's diary to track AI progress and improvements
+  - /sales_data.csv - Sales data file
+  - /starter_notebook.ipynb - The main Jupyter notebook for analysis
+  - /transactions.csv - Sample transaction data
 
-## 📂 Suggested Repo Layout
-You may adapt this structure or create your own. Clarity and organisation are graded in the rubric.
+    ## AI Evidence
+    Throoughout the development, I used AI to help with data cleaning, analysis, and to provide code suggestions. You can find a detailed log of my AI interactions in the ai-conversations folder.
 
-```
-/README.md            ← this file
-/assignment.pdf       ← official assignment specification
-/starter_notebook.ipynb  ← scaffold notebook with six-step method
-/example_diary.md     ← sample Developer’s Diary entries
-/data/                ← your CSVs or sample datasets
-/tests/               ← your test scripts or asserts
-/ai-conversations/    ← weekly AI Evidence Packages (screenshots, notes)
-/docs/                ← pseudocode, design notes, planning docs
-```
-
----
-
-## 🚀 Getting Started
-1. Open the `starter_notebook.ipynb` in Google Colab.
-2. Follow the **six-step methodology**:
-   1. Understand the problem
-   2. Identify inputs and outputs
-   3. Work the problem by hand
-   4. Write pseudocode
-   5. Convert to Python
-   6. Test with a variety of data
-3. Add at least one **meaningful GitHub commit per week** (Weeks 8–12).
-4. Document AI use in your **Developer’s Diary** (`/ai-conversations/` folder or a markdown file).
-
----
 
 ## ✅ Submission Requirements
 - Colab Notebook with full project implementation
@@ -73,8 +49,6 @@ You may adapt this structure or create your own. Clarity and organisation are gr
 - **Business Relevance** – meaningful finance problem (15%)
 - **Clarity & Reflection** – repo organisation, README, diary (15%)
 
-For the full rubric, see `assignment.pdf`.
-
 ---
 
 ## 📚 Resources
@@ -83,16 +57,6 @@ For the full rubric, see `assignment.pdf`.
 - **Documentation**: [DeepWiki Guide](https://deepwiki.com/michael-borck/hands-on-ai)
 - **For AI Assistants**: Share [this LLM context file](https://github.com/michael-borck/hands-on-ai/blob/main/LLM.txt) with ChatGPT/Claude/Copilot for better code suggestions
 
----
-
-## 💡 Tips
-- Keep your commits small and descriptive.
-- Use AI as a coding partner, not a crutch.
-- Remember: **undocumented AI use = misconduct**.
-
-Good luck, and have fun building your Finance Assistant! 🎉
-
----
 
 ## 📜 License
 
