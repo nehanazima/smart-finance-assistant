@@ -27,9 +27,22 @@
 **Artifact**: A written record of AI assistance used to create a custom savings calculator tool.
 **Context**: I needed one custom financial tool for the project. I created a calculator that uses current savings, monthly contribution, and target amount to estimate the time needed to reach a goal.
 **Reflection**: AI helped create the basic function , but i had to fix errors and test it inside Gradio. I learned the improtance of input validation, especially when monthly contribution is zero or the target has already been reached.
-# Entry 4 - Gradio UI
+
+## Entry 4 - Gradio UI
 **Artifact**: A written record of AI assistance used to build the Gradio web interface.
 **Context**: I needed to connect my CSV analysis and savings calculator into one simple use interface.
 **Reflection**: AI helped structure the Gradio tabs, file upload, output boxes, and calculator inputs. I faced issues with hidden button and layout, but after testing, the interface worked successfully.I learned how Gradio connects frontend inputs with Python backend functions.
 
+## Entry 5 - Testing
+**Artifact**: A written record of AI assistance used to create test datasets and testing functions.
+**Context**: I needed to prove that the finance assistant works with normal data, invalid data, refunds, missing values, and empty datasets.
+**Reflection**: AI helped create test cases using assert statements. The tests confirmed that the cleaning, analysis, and recommendation functions worked correctly.
+
+## Entry 6 - Final Integration
+**Artifact**: A written record of AI assistance used to connect the full workflow and prepare the final project.
+**Context**: I needed to complete the notebook, run the app, commit changes to Github, and prepare documentation.
+**Reflection**: AI helped me debug Github, Colab, Gradio, and package installation issues. I learned how to commit updates, write project documentation, and finalise a working application. This project improved my confidence in using AI as a coding assistant while still reviewing and improving the solution myself.
+
+## Final Reflection 
+This project helped me learn Python data analysis, Gradio interface development, testing , debugging, and Github version control. AI was useful throughout the project, but i still needed to check outputs, fix errors, and make decisions. I learned that AI is most effective when I provide clear prompts, review the code carefully, and test the final result.
 
