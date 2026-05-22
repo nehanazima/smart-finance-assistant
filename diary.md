@@ -28,4 +28,8 @@
 **Context**: I needed one custom financial tool for the project. I created a calculator that uses current savings, monthly contribution, and target amount to estimate the time needed to reach a goal.
 **Reflection**: AI helped create the basic function , but i had to fix errors and test it inside Gradio. I learned the improtance of input validation, especially when monthly contribution is zero or the target has already been reached.
 # Entry 4 - Gradio UI
+**Artifact**: A written record of AI assistance used to build the Gradio web interface.
+**Context**: I needed to connect my CSV analysis and savings calculator into one simple use interface.
+**Reflection**: AI helped structure the Gradio tabs, file upload, output boxes, and calculator inputs. I faced issues with hidden button and layout, but after testing, the interface worked successfully.I learned how Gradio connects frontend inputs with Python backend functions.
+
 
