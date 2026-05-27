@@ -42,7 +42,23 @@
 **Prompt**: "I want my transaction template to be smarter. It should be able to tell me: 1) If a transaction is a large expense (over $50), 2) How to display it nicely for business reports, and 3) Whether it happened this month. How would you add these business features ?"
 **Result**: Expanded Python class code implementing automated datatype parsing, an explicit formatting 'display()" layout string, and helper evaluation functions like 'is_large_expense()' and 'is_this_month()".
 **Reflection**: Working through the date verification step taught me how important it is to handle native data types correctly. I had to use Python's  'datetime.strptime()' tool to normalize text strings into active timestamp objects so the system can reliably evaluate monthly activity bounds.
-## Additional Project Reflection
+
+## Week 10: Test Specification,Verification & Bug Prevention
+# AI Collaboraton 1
+**Context**: Implementing structural test coverage rules to verify algorithmic logic before writing code.
+**Artifact**: A text record of a prompt designing text-based testing scenerios using engineering blueprints.
+**Prompt**: "I'm testing a leap year function with these rules: Divisible by 4, but NOT 100,unless divisible by 400. What testscenerios should Iconsider? Include normal cases, edge cases, boundary conditions and tricky scenarios."
+**Result**: Structured a text suite separating scenarios into standard valid inputs, century rules, and boundary values using the Given/When/Then validation model.
+**Reflection**: I learned that code clarity increases when you write out specifications *before* implementing functions. Working through Equivalence Partitioning taught me how to bundle infinitely many possible inputs into clear logical paths, reducing redundant tests while guranteeing full  branch coverage..
+
+## AI Collaboration 2
+**Context**: Designing a test suite for a Password Strength Validator matching multi-conditional complexity requirements.
+**Artifact**: A text log documenting boundary value analysis mapping parameter edges.
+**Prompt**: "Write a Python function 'is_strong_password(password)' that implements validation requirements (length >= 8, uppercase, lowercase, digit, and special characters) using simple, readable if statements."
+**Result**: Implemented an executable test harness utilizing Python 'assert' statement to explicitly verify character-length transition limits (7, 8, and 9 characters) alongside missing -parameter violations.
+**Reflection**: This exercise highlighted why testing the exact boundaries of a system is so critical. Bugs frequently hide right where logical conditions  switch (like off-by-one errors.)
+
+## Additional Project Reflection ## Week 11 & 12
 # Developer's Diary - Smart Finance Assistant
 ## Entry 1 - CSV Data Processing
 **Artifact**: A written record of AI assistance used to create and improve the CSV loading and cleaning function.
