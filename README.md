@@ -9,7 +9,7 @@ Welcome to your project repository for the **ISYS2001 Final Programming Project*
 ---
 
 ## 📖 Project Overview
-This project aims to create a Smart Finance Assistant that assists users in managing their finances through data analysis and personalized recommendations. It processes transaction data to calculate spending, suggest savings, and analyze financial habits.
+This repository  contains Budget Buddy, a tailored personal finance assistant designed to help everyday users track their monthly entertainment and grocery spending.
  Assistant included:
 - **Chat**: a finance-oriented personality bot
 - **RAG**: retrieval from CSV or other documents
@@ -24,6 +24,12 @@ This project aims to create a Smart Finance Assistant that assists users in mana
   - /sales_data.csv - Sales data file
   - /starter_notebook.ipynb - The main Jupyter notebook for analysis
   - /transactions.csv - Sample transaction data
+ 
+    ## How to Run & Use the Assistant
+    1. Open 'smart_finance_assistant.ipynb' in Google Colab.
+    2. Run all cells to install the 'hands-on-ai' library and initiate the Gradio interface.
+    3. Click the local or public URL link generated at the bottom of the notebook.
+    4. **Testing Example:** Ask the chatbot *"How can I save $200 this month?"* or upload the 'transactions.csv' file to see a quick summaryof your spending patterns.
 
     ## AI Evidence
     Throoughout the development, I used AI to help with data cleaning, analysis, and to provide code suggestions. You can find a detailed log of my AI interactions in the ai-conversations folder.
