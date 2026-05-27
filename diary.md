@@ -27,6 +27,21 @@
 **Prompt**: "Convert API response to pandas DataFrame. Clean up column names to Open, High, Low, Close, Volume, and convert index to datetime."
 **Result**: Working code extracting data from the nested "Time Series (Daily)" string object dictionary, organizing index datatypes, and mapping column headers cleanly.
 **Reflection**: Nesting dictionary payloads can be highly confusing to handle manually. AI successfully demonstrated how to use 'pd.DataFrame.from_dict(time_series, orient='index')', which taught me how to easily realign API response data shapes on an index axis.
+
+## Week 9: Object-Oriented Programming (OOP) Discovery
+## AI Collaboration #1
+**Context**: Analyzing real-world business models to identify data structures and class boundaries before writing code.
+**Artifact**: A text record of a domain-discovery engineering prompt submitted to the AI assistant.
+**Prompt**:"I'm studying how a coffee shop organizes its information. What are the main 'things' this business deals with everyday,and for each thing, what details do they need to remember and what tasks do they need to do with that information?"
+**Result**: Mock AI analysis mapping coffee shop elements into six clear conceptual structurs: Customers, Menu Items, Orders, Payments, Employees, and Inventory.
+**Reflection**: This exercise taught me how to identify core business patterns. I discovered that an 'Order' entity functions as a central structural anchor because it links customers, items, totals, and execution statuses together. Without it, tracking sales or revenue metrics accurately becomes impossible.
+
+## AI Collaboration #2
+**Context**: Building and refining a reusable 'Transaction' data blueprint that models real-world bank movements.
+**Artifact**: A text log record of an iterative class enhancement instruction.
+**Prompt**: "I want my transaction template to be smarter. It should be able to tell me: 1) If a transaction is a large expense (over $50), 2) How to display it nicely for business reports, and 3) Whether it happened this month. How would you add these business features ?"
+**Result**: Expanded Python class code implementing automated datatype parsing, an explicit formatting 'display()" layout string, and helper evaluation functions like 'is_large_expense()' and 'is_this_month()".
+**Reflection**: Working through the date verification step taught me how important it is to handle native data types correctly. I had to use Python's  'datetime.strptime()' tool to normalize text strings into active timestamp objects so the system can reliably evaluate monthly activity bounds.
 ## Additional Project Reflection
 # Developer's Diary - Smart Finance Assistant
 ## Entry 1 - CSV Data Processing
